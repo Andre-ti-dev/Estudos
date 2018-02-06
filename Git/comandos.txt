@@ -23,7 +23,7 @@ git add . - o ponto representa todos os arquivos não rastreados pelo git do dire
 arquivo .gitignore - arquivo com nomes de arquivos que o git ira ignorar, arquivos que não sejam importantes para o projeto. Se quiser ignorar todos arquivos de uma extensão é necessario adicionar *.extensão (*.png, *.txt)
 
 
-Area de stage - Rastreia as mudanças nos arquivos, porem não comitta (Grava) arquivos
+Area de stage - Rastreia as mudanças nos arquivos, porem não comita (Grava) arquivos
 
-git commit -am "Mensagem" - Adiciona arquivo para area de stage e commita (Grava)
+git commit -am "Mensagem" - Adiciona arquivo para area de stage e comita (Grava)
 
