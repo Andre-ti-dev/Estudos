@@ -39,3 +39,9 @@ Também é possivel combinar as várias opções do git log como git log -n 2 --
 O git status exibe arquivos que estão fora da área de stage, prontospara serem adicionados, e arquivos que estão dentro da área de stage, prontos para serem comitados. 
 Já o git log exibe o histórico das mudanças efetivamente gravadas em um repositório. Ou seja, os commits efetuados
 
+git diff - Exibe as diferênças entre o arquivo alterado e o arquivo comitado 
+
+git diff arquivo - para verificar as mudanças de um arquivo especifico
+
+git diff --staged - 
+
