@@ -1,0 +1,29 @@
+git init - Inicia um repositorio 
+
+git add - Adiciona um arquivo para ser rastreado
+
+git commit -m - Comita (grava) um nova versão do arquivo (-m é para informar as alterações feitas no commit)
+
+git status - Informa a situação dos arquivos no repositório (alterações e afins)
+
+git log - Informa o histórico de alterações do repositório
+
+$ git config --global user.name "Fulano da Silva" - configura nome do usuario no git
+
+$ git config --global user.email fulanodasilva.git@gmail.com - configura email do usuario no git
+
+git remote add origin <url do repositório>.git - Aponta para um repositório remoto (github entre outros)
+
+git push origin master - Enviar os arquivos de um repositório local para um repositório remoto
+
+git clone <url do repositório a ser clonado>.git - Clona os arquivos de um repositório remoto
+
+git add . - o ponto representa todos os arquivos não rastreados pelo git do diretório atual e subdiretorio
+
+arquivo .gitignore - arquivo com nomes de arquivos que o git ira ignorar, arquivos que não sejam importantes para o projeto. Se quiser ignorar todos arquivos de uma extensão é necessario adicionar *.extensão (*.png, *.txt)
+
+
+Area de stage - Rastreia as mudanças nos arquivos, porem não comitta (Grava) arquivos
+
+git commit -am "Mensagem" - Adiciona arquivo para area de stage e commita (Grava)
+
