@@ -1,40 +1,41 @@
-git init - Inicia um repositorio 
+ï»¿git init - Inicia um repositorio 
 
 git add - Adiciona um arquivo para ser rastreado
 
-git commit -m - Comita (grava) um nova versão do arquivo (-m é para informar as alterações feitas no commit)
+git commit -m - Comita (grava) um nova versÃ£o do arquivo (-m Ã© para informar as alteraÃ§Ãµes feitas no commit)
 
-git status - Informa a situação dos arquivos no repositório (alterações e afins)
+git status - Informa a situaÃ§Ã£o dos arquivos no repositÃ³rio (alteraÃ§Ãµes e afins)
 
-git log - Informa o histórico de alterações do repositório
+git log - Informa o histÃ³rico de alteraÃ§Ãµes do repositÃ³rio
 
 $ git config --global user.name "Fulano da Silva" - configura nome do usuario no git
 
 $ git config --global user.email fulanodasilva.git@gmail.com - configura email do usuario no git
 
-git remote add origin <url do repositório>.git - Aponta para um repositório remoto onde "origin" é o nome que sera atribuido a esse repositório no git
+git remote add origin <url do repositÃ³rio>.git - Aponta para um repositÃ³rio remoto onde "origin" Ã© o nome que sera atribuido a esse repositÃ³rio no git
 
-git push origin master - Enviar os arquivos de um repositório local para um repositório remoto."origin" é o nome atribuido ao repositório utilizando git remote add
+git push origin master - Enviar os arquivos de um repositÃ³rio local para um repositÃ³rio remoto."origin" Ã© o nome atribuido ao repositÃ³rio utilizando git remote add
 
-git clone <url do repositório a ser clonado>.git - Clona os arquivos de um repositório remoto
+git clone <url do repositÃ³rio a ser clonado>.git - Clona os arquivos de um repositÃ³rio remoto
 
-git add . - o ponto representa todos os arquivos não rastreados pelo git do diretório atual e subdiretorio
+git add . - o ponto representa todos os arquivos nÃ£o rastreados pelo git do diretÃ³rio atual e subdiretorio
 
-arquivo .gitignore - arquivo com nomes de arquivos que o git ira ignorar, arquivos que não sejam importantes para o projeto. Se quiser ignorar todos arquivos de uma extensão é necessario adicionar *.extensão (*.png, *.txt)
+arquivo .gitignore - arquivo com nomes de arquivos que o git ira ignorar, arquivos que nÃ£o sejam importantes para o projeto
+. Se quiser ignorar todos arquivos de uma extensÃ£o Ã© necessario adicionar *.extensÃ£o (*.png, *.txt)
 
 
-Area de stage - Rastreia as mudanças nos arquivos, porem não comita (Grava) arquivos
+Area de stage - Rastreia as mudanÃ§as nos arquivos, porem nÃ£o comita (Grava) arquivos
 
 git commit -am "Mensagem" - Adiciona arquivo para area de stage e comita (Grava)
 
-git log -n 2 - Exibe o histórico de alterações no repositório onde "2" é a quantidade de alterações que serão exibidas
+git log -n 2 - Exibe o histÃ³rico de alteraÃ§Ãµes no repositÃ³rio onde "2" Ã© a quantidade de alteraÃ§Ãµes que serÃ£o exibidas
 
-git log --oneline - Exibe um resumo das alterações no repositório com as descrições das mudanças
+git log --oneline - Exibe um resumo das alteraÃ§Ãµes no repositÃ³rio com as descriÃ§Ãµes das mudanÃ§as
 
-git log --stat - Exibe o número de linhas adicionadas e removidas das alterações
+git log --stat - Exibe o nÃºmero de linhas adicionadas e removidas das alteraÃ§Ãµes
 
-Também é possivel combinar as várias opções do git log como git log -n 2 --oneline --stat
+TambÃ©m Ã© possivel combinar as vÃ¡rias opÃ§Ãµes do git log como git log -n 2 --oneline --stat
 
-O git status exibe arquivos que estão fora da área de stage, prontospara serem adicionados, e arquivos que estão dentro da área de stage, prontos para serem comitados. 
-Já o git log exibe o histórico das mudanças efetivamente gravadas em um repositório. Ou seja, os commits efetuados
+O git status exibe arquivos que estÃ£o fora da Ã¡rea de stage, prontospara serem adicionados, e arquivos que estÃ£o dentro da Ã¡rea de stage, prontos para serem comitados. 
+JÃ¡ o git log exibe o histÃ³rico das mudanÃ§as efetivamente gravadas em um repositÃ³rio. Ou seja, os commits efetuados
 
