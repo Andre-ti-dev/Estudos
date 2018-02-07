@@ -45,7 +45,7 @@ git diff - Exibe as diferênças entre o arquivo alterado e o arquivo comitado
 
 git diff arquivo - para verificar as mudanças de um arquivo especifico
 
-git diff --staged - 
+git diff --staged - Utilizado para verificar as diferênças entre o arquivo na area de stage e sua versão comitada
 
 git diff <codigo do ultimo commit> - Usado para verificar diferênças nos arquivos modificados estando na area de stage ou não, para consultar o codigo do ultimo commit : git log -n 1 --oneline
 
@@ -58,3 +58,9 @@ git rm <nome do arquivo> - Remove um arquivo do repositório, porém ainda pode 
 git mv <nome do arquivo> <novo nome> - Renomeia um arquivo no repositório
 
 git checkout -- <arquivo> - Desfaz alterações no arquivo
+
+git reset -- <arquivo> - Retira o arquivo da area de stage preservando suas alterações, se não utilizar parâmetro ira retirar todos arquivos da area de stage e também terão suas alterações preservadas
+
+git reset --hard - Retira todos arquivos da area do stage e também suas alterações
+
+git revert --no-edit <codigo do commit> - Desfaz as alterações do commit informado. Opção "--no-edit" serve para que não seja preciso editar a mensagem do novo commit
