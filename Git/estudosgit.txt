@@ -57,3 +57,4 @@ git rm <nome do arquivo> - Remove um arquivo do repositório, porém ainda pode 
 
 git mv <nome do arquivo> <novo nome> - Renomeia um arquivo no repositório
 
+git checkout -- <arquivo> - Desfaz alterações no arquivo
