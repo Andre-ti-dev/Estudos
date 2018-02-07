@@ -34,6 +34,8 @@ git log --oneline - Exibe um resumo das alterações no repositório com as desc
 
 git log --stat - Exibe o número de linhas adicionadas e removidas das alterações
 
+q - Sair do git log 
+
 Também é possivel combinar as várias opções do git log como git log -n 2 --oneline --stat
 
 O git status exibe arquivos que estão fora da área de stage, prontospara serem adicionados, e arquivos que estão dentro da área de stage, prontos para serem comitados. 
@@ -45,3 +47,6 @@ git diff arquivo - para verificar as mudanças de um arquivo especifico
 
 git diff --staged - 
 
+git diff <codigo do ultimo commit> - Usado para verificar diferênças nos arquivos modificados estando na area de stage ou não, para consultar o codigo do ultimo commit : git log -n 1 --oneline
+
+git diff inicio..fim - Verificar histórico de alterações feitas de um commit ao outros, onde inicio e fim são os codigos dos commit's
