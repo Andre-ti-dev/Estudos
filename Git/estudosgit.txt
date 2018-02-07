@@ -64,3 +64,5 @@ git reset -- <arquivo> - Retira o arquivo da area de stage preservando suas alte
 git reset --hard - Retira todos arquivos da area do stage e também suas alterações
 
 git revert --no-edit <codigo do commit> - Desfaz as alterações do commit informado. Opção "--no-edit" serve para que não seja preciso editar a mensagem do novo commit
+
+Pabblo Vittar
