@@ -1,5 +1,7 @@
 ﻿git init - Inicia um repositorio 
 
+git init --bare <nome do repositório>.git - Cria um repositorio para ser acessado remotamente, a opção --bare impede que seja criado uma working tree (diretório de trabalho) impedindo que seja efetuados commits no servidor, já que os commit's chegarão remotamente
+
 git add - Adiciona um arquivo para ser rastreado
 
 git commit -m - Comita (grava) um nova versão do arquivo (-m é para informar as alterações feitas no commit)
@@ -63,4 +65,5 @@ git reset -- <arquivo> - Retira o arquivo da area de stage preservando suas alte
 
 git reset --hard - Retira todos arquivos da area do stage e também suas alterações
 
-git revert --no-edit <codigo do commit> - Desfaz as alterações do commit informado. Opção "--no-edit" serve para que não seja preciso editar a mensagem do novo commit
+git revert --no-edit <codigo do commit> - Desfaz as alterações do commit informado. Opção "--no-edit" serve para que não seja preciso editar a mensagem do novo commit se ocultado devera descrever oque foi retirado
+
