@@ -10,9 +10,9 @@ git status - Informa a situação dos arquivos no repositório (alterações e a
 
 git log - Informa o histórico de alterações do repositório
 
-$ git config --global user.name "Fulano da Silva" - configura nome do usuário no git
+git config --global user.name "Fulano da Silva" - configura nome do usuário no git
 
-$ git config --global user.email fulanodasilva.git@gmail.com - configura email do usuário no git
+git config --global user.email fulanodasilva.git@gmail.com - configura email do usuário no git
 
 git remote add origin <url do repositório>.git - Aponta para um repositório remoto onde "origin" é o nome que será atribuído a esse repositório no git
 
