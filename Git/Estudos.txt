@@ -16,7 +16,17 @@ $ git config --global user.email fulanodasilva.git@gmail.com - configura email d
 
 git remote add origin <url do repositório>.git - Aponta para um repositório remoto onde "origin" é o nome que será atribuído a esse repositório no git
 
-git push origin master - Enviar os arquivos de um repositório local para um repositório remoto."origin" é o nome atribuído ao repositório utilizando git remote add
+git remote - Exibe os nomes dos repositórios remotos adicionados ao git
+
+git remote -v - Exibe os nomes e urls dos repositórios remotos adicionados ao git
+
+git remote rename <nome antigo> <nome novo> - Renomeia o "name" de um repositório remoto adicionado ao git
+
+git remote set-url <nome do repositório> <nova url do repositório> - Altera a url de um repositório adicionado ao git
+
+git push origin master - Envia os arquivos de um repositório local para um repositório remoto."origin" é o nome atribuído ao repositório utilizando git remote add
+
+git push origin master - Sincroniza o repositório local com o repositório remoto
 
 git clone <url do repositório a ser clonado>.git - Clona os arquivos de um repositório remoto
 
