@@ -1,0 +1,7 @@
+Colaborando com projetos no github
+
+Realizar fork no projeto desejado para colaborar.
+Clonar o projeto que agora estara em nosso repositório.
+Realizar as alterações
+Enviar alterações para o repositório no github
+Realizar um pull request para o dono do projeto que queremos colaborar
