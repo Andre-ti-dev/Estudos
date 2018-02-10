@@ -79,4 +79,4 @@ git remote rename <nome> <novo nome> - Altera o nome do servidor remoto adiciona
 
 git remote set-url <nome do repositório remoto> <url do repositório remoto> - Altera a url de um repositório remoto
 
-Teste
+Testando novamente o git pull
