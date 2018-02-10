@@ -66,3 +66,13 @@ git reset -- <arquivo> - Retira o arquivo da área de stage preservando suas alt
 git reset --hard - Retira todos arquivos da área do stage e também suas alterações
 
 git revert --no-edit <codigo do commit> - Desfaz as alterações do commit informado. Opção "--no-edit" serve para que não seja preciso editar a mensagem do novo commit se ocultado devera descrever oque foi retirado
+
+git init --bare <nome do repositório> - Cria um repositório remoto, a opção --bare impede que sejam comitados arquivos diretamente do servidor
+
+git remote - Lista os repositórios remotos adicionados
+
+git remote -v - Lista os repositórios remotos e suas urls
+
+git remote rename <nome> <novo nome> - Altera o nome do servidor remoto adicionado
+
+git remote set-url <nome do repositório remoto> <url do repositório remoto> - Altera a url de um repositório remoto
