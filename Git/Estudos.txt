@@ -53,7 +53,7 @@ git diff --staged - Utilizado para verificar as diferenças entre o arquivo na �
 
 git diff <codigo do ultimo commit> - Usado para verificar diferenças nos arquivos modificados estando na area de stage ou não, para consultar o codigo do ultimo commit : git log -n 1 --oneline
 
-git diff inicio..fim - Verificar histórico de alterações feitas de um commit ao outros, onde inicio e fim são os códigos dos commit's
+git diff inicio..fim - Verificar histórico de alterações feitas de um commit a outros, onde inicio e fim são os códigos dos commit's
 
 git diff <codigo do commit>~n - Exibe histórico de alterações de um commit em relação a commits anteriores, onde n indica quantos commit anteriores devem ser considerados além de exibir também modificações não comitadas.
 
