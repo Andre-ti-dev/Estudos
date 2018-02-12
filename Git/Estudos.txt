@@ -88,3 +88,11 @@ git branch <nome da branch> - Cria uma nova branch
 git checkout <nome da branch> - Muda de branch
 
 git checkout -b <nome da branch> - Cria uma nova branch e já aponta o HEAD para ela
+
+git branch -d <nome da branch> - Deleta uma branch
+
+git branch --no-merged - Exibe branches não mescladas
+
+git branch --merged -
+
+git merge <nome branch para mesclar> -m - Mescla as mudanças de uma branch com a branch master 
