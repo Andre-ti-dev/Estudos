@@ -78,3 +78,13 @@ git remote -v - Lista os repositórios remotos e suas urls
 git remote rename <nome> <novo nome> - Altera o nome do servidor remoto adicionado
 
 git remote set-url <nome do repositório remoto> <url do repositório remoto> - Altera a url de um repositório remoto
+
+git branch - Lista as branches do repositório
+
+git branch -v - Lista as branches do repositório e o ultimo commit associado
+
+git branch <nome da branch> - Cria uma nova branch
+
+git checkout <nome da branch> - Muda de branch
+
+git checkout -b <nome da branch> - Cria uma nova branch e já aponta o HEAD para ela
