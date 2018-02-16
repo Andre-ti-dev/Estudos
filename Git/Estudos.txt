@@ -10,9 +10,9 @@ git status - Informa a situação dos arquivos no repositório (alterações e a
 
 git log - Informa o histórico de alterações do repositório
 
-$ git config --global user.name "Fulano da Silva" - configura nome do usuário no git
+git config --global user.name "Fulano da Silva" - configura nome do usuário no git
 
-$ git config --global user.email fulanodasilva.git@gmail.com - configura email do usuário no git
+git config --global user.email fulanodasilva.git@gmail.com - configura email do usuário no git
 
 git remote add origin <url do repositório>.git - Aponta para um repositório remoto onde "origin" é o nome que será atribuído a esse repositório no git
 
@@ -20,15 +20,11 @@ git push origin master - Enviar os arquivos de um repositório local para um rep
 
 git clone <url do repositório a ser clonado>.git - Clona os arquivos de um repositório remoto
 
-git pull <nome do repositório> <nome da branch> - Sincroniza o repositório local com o repositório remoto
+git pull <nome do repositório> <nome da branch> - Sincroniza o repositório local com o repositório remoto fazendo um "fetch" dos commit's remotos seguido de um merge para juntar os commit's
+
+git pull <nome do repositório> <nome da branch> --rebase - Sincroniza o repositório local com o repositório remoto fazendo um "fetch" dos commit's remotos seguido de um rebase mantendo o histórico linear
 
 git add . - o ponto representa todos os arquivos não rastreados pelo git do diretório atual e subdiretório
-
-arquivo .gitignore - arquivo com nomes de arquivos que o git ira ignorar, arquivos que não sejam importantes para o projeto
-. Se quiser ignorar todos arquivos de uma extensão é necessário adicionar *.extensão (*.png, *.txt)
-
-
-Area de stage - Rastreia as mudanças nos arquivos, porem não comita (Grava) arquivos
 
 git commit -am "Mensagem" - Adiciona arquivo para área de stage e comita (Grava)
 
@@ -39,11 +35,6 @@ git log --oneline - Exibe um resumo das alterações no repositório com as desc
 git log --stat - Exibe o número de linhas adicionadas e removidas das alterações
 
 q - Sair do git log
-
-Também é possivel combinar as várias opções do git log como git log -n 2 --oneline --stat
-
-O git status exibe arquivos que estão fora da área de stage, prontos para serem adicionados, e arquivos que estão dentro da área de stage, prontos para serem comitados.
-Já o git log exibe o histórico das mudanças efetivamente gravadas em um repositório. Ou seja, os commits efetuados
 
 git diff - Exibe as diferenças entre o arquivo alterado e o arquivo comitado
 
@@ -108,8 +99,6 @@ git remote -a - Lista as branches locais e remotas
 git remote -r -v - Lista para que comit as branches remotas estão apontando
 
 git checkout -b <nome da branch> <branch remota> - Cria uma nova branch com base em uma branch remota. Opção "-b" para trocar para nova branch
-
-"Branchs locais criadas apartir de branchs remotas são chamadas de tracking branches"
 
 git checkout -t <branch remota> - Maneira simples de criar uma tracking branch
 
