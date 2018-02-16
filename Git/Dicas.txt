@@ -1,0 +1,16 @@
+﻿• Utilizar um git pull --rebase para obter mudanças remotas. É
+uma prática segura porque nossos novos commits locais ainda não foram
+compartilhados, ou seja, outros membros nem sabem da existência
+desses commits. Por isso, alterá-los não traz grandes problemas.
+
+• Ao trabalharmos em uma nova funcionalidade utilizando uma branch,
+marcamos sua entrega fazendo um merge. Assim, conseguimos ter
+uma boa ideia de quando a funcionalidade começou a ser desenvolvida
+e quando foi reintegrada à branch master.
+
+• Se estivermos trabalhando sozinhos na nova funcionalidade, podemos
+fazer rebases periódicos da master na nossa branch para obter código
+novo, porém deixando o histórico da branch bem limpo.
+
+• É interessante fazer o push da nossa branch solitária em um repositório
+remoto, para backup. Mas é importante evitar que alguém faça checkout.
