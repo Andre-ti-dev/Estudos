@@ -1,4 +1,15 @@
-﻿• Utilizar um git pull --rebase para obter mudanças remotas. É
+﻿• Area de stage - Rastreia as mudanças nos arquivos, porem não comita (Grava) arquivos
+
+• Também é possivel combinar as várias opções do git log como git log -n 2 --oneline --stat
+
+• O git status exibe arquivos que estão fora da área de stage, prontos para serem adicionados, e arquivos que estão dentro da área de stage, prontos para serem comitados.
+Já o git log exibe o histórico das mudanças efetivamente gravadas em um repositório. Ou seja, os commits efetuados
+
+• arquivo .gitignore - arquivo com nomes de arquivos que o git ira ignorar, arquivos que não sejam importantes para o projeto. Se quiser ignorar todos arquivos de uma extensão é necessário adicionar *.extensão (*.png, *.txt)
+
+• "Branchs locais criadas apartir de branchs remotas são chamadas de tracking branches"
+
+• Utilizar um git pull --rebase para obter mudanças remotas. É
 uma prática segura porque nossos novos commits locais ainda não foram
 compartilhados, ou seja, outros membros nem sabem da existência
 desses commits. Por isso, alterá-los não traz grandes problemas.
