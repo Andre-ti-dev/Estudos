@@ -91,8 +91,26 @@ git checkout -b <nome da branch> - Cria uma nova branch e já aponta o HEAD para
 
 git branch -d <nome da branch> - Deleta uma branch
 
+git branch -D <nome da branch> - Deleta uma branch mesmo que haja mudanças para comitar
+
 git branch --no-merged - Exibe branches não mescladas
 
 git branch --merged -
 
-git merge <nome branch para mesclar> -m - Mescla as mudanças de uma branch com a branch master 
+git merge <nome branch para mesclar> -m - Mescla as mudanças de uma branch com a branch master
+
+git rebase - Refaz os histórico de alterações do repositório criando uma linearidade
+
+git remote -r - Lista as branches remotas
+
+git remote -a - Lista as branches locais e remotas
+
+git remote -r -v - Lista para que comit as branches remotas estão apontando
+
+git checkout -b <nome da branch> <branch remota> - Cria uma nova branch com base em uma branch remota. Opção "-b" para trocar para nova branch
+
+"Branchs locais criadas apartir de branchs remotas são chamadas de tracking branches"
+
+git checkout -t <branch remota> - Maneira simples de criar uma tracking branch
+
+git push <respositorio remoto> : <branch> - Deleta uma branch remota
