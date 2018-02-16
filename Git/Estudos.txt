@@ -114,3 +114,5 @@ git checkout -b <nome da branch> <branch remota> - Cria uma nova branch com base
 git checkout -t <branch remota> - Maneira simples de criar uma tracking branch
 
 git push <respositorio remoto> : <branch> - Deleta uma branch remota
+
+git fetch <repositório remoto> - Obtem os commit's remotos para o repositório local
